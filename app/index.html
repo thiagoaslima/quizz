@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>IBGE Go</title>
+    <link rel="stylesheet" href="fonts/stylesheet.css">
+    <link rel="stylesheet" href="pure/pure-min.css">
+    <!--[if lte IE 8]>
+        <link rel="stylesheet" href="pure/grids-responsive-old-ie-min.css">
+    <![endif]-->
+    <!--[if gt IE 8]><!-->
+    <link rel="stylesheet" href="pure/grids-responsive-min.css">
+    <!--<![endif]-->
+</head>
+
+<body>
+
+    <script src="vendor/system.js"></script>
+    <script>
+        SystemJS.config({
+            packages: {
+                'js': {
+                    main: 'main.js',
+                    forrmat: 'system',
+                    defaultExtension: 'js'
+                }
+            }
+        })
+        SystemJS.import('js/main.js')
+            .then(
+            console.info.bind(console, 'success'),
+            console.error.bind(console)
+            );
+    </script>
+</body>
+
+</html>

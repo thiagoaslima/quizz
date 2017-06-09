@@ -1,0 +1,362 @@
+[
+    {
+        "id": 31,
+        "pergunta": "Qual é a capital de Pernambuco?",
+        "dificuldade": 1,
+        "resposta": "Recife",
+        "falsas": [
+            "Rio de Janeiro",
+            "Cuiabá",
+            "São Paulo",
+            "Manaus"
+        ]
+    },
+    {
+        "id": 32,
+        "pergunta": "Qual dessas cidades está localizada no Brasil?",
+        "dificuldade": 1,
+        "resposta": "Pindamonhangaba",
+        "falsas": [
+            "Mangacatapinha",
+            "Isengard",
+            "Garapa",
+            "Goiabada"
+        ]
+    },
+    {
+        "id": 33,
+        "pergunta": "Em qual região se localiza o estado do Mato Grosso?",
+        "dificuldade": 1,
+        "resposta": "Centro-Oeste",
+        "falsas": [
+            "Sul",
+            "Nordeste",
+            "Sudeste",
+            "Norte"
+        ]
+    },
+    {
+        "id": 34,
+        "pergunta": "Quem nasce no município de Aracaju é:",
+        "dificuldade": 1,
+        "resposta": "Aracajuano",
+        "falsas": [
+            "Um caju",
+            "Cajuano",
+            "Cajueiro",
+            "Araqueiro"
+        ]
+    },
+    {
+        "id": 35,
+        "pergunta": "Qual desses estados não é banhado pelo mar?",
+        "dificuldade": 1,
+        "resposta": "Minas Gerais",
+        "falsas": [
+            "Bahia",
+            "Espírito Santo",
+            "Ceará",
+            "Paraíba"
+        ]
+    },
+    {
+        "id": 36,
+        "pergunta": "Qual é o maior rio do Brasil?",
+        "dificuldade": 1,
+        "resposta": "Amazonas",
+        "falsas": [
+            "Paraná",
+            "São Francisco",
+            "Rio de Janeiro",
+            "Araguaia"
+        ]
+    },
+    {
+        "id": 37,
+        "pergunta": "Qual o estado brasileiro com a maior população?",
+        "dificuldade": 1,
+        "resposta": "São Paulo",
+        "falsas": [
+            "Tocantins",
+            "Braavos",
+            "Minas Gerais",
+            "Maranhão"
+        ]
+    },
+    {
+        "id": 38,
+        "pergunta": "Segundo a Harry Potter wiki, o Brasil é lar de uma comunidade bruxa comparável à do Reino Unido. Os municípios de Caxambu, Manaus e Teresina aparentemente possuem significativas populações mágicas. Em que estados se localizam estes três municípios?",
+        "dificuldade": 1,
+        "resposta": "Minas Gerais, Amazonas e Piauí",
+        "falsas": [
+            "Espírito Santo, Pará e Alagoas",
+            "Minas Gerais, Pará e Piauí",
+            "Espírito Santo, Amazonas e Piauí",
+            "Espírito Santo, Azkaban e Alagoas"
+        ]
+    },
+    {
+        "id": 39,
+        "pergunta": "Qual é o estado brasileiro com maior extensão?",
+        "dificuldade": 1,
+        "resposta": "Amazonas",
+        "falsas": [
+            "São Paulo",
+            "Minas Gerais",
+            "Pará",
+            "Mato Grosso"
+        ]
+    },
+    {
+        "id": 40,
+        "pergunta": "Qual o tipo de relevo predominante em Brasília?",
+        "dificuldade": 1,
+        "resposta": "Planalto",
+        "falsas": [
+            "Depressão",
+            "Serra",
+            "Chapada",
+            "Tabuleiro"
+        ]
+    },
+    {
+        "id": 41,
+        "pergunta": "Quantas pessoas vivem no Brasil?",
+        "dificuldade": 2,
+        "resposta": "Entre 200 e 210 milhões",
+        "falsas": [
+            "Entre 150 e 170 milhões",
+            "Entre 90 e 100 milhões",
+            "1 bilhão",
+            "Entre 500 e 550 milhões"
+        ]
+    },
+    {
+        "id": 42,
+        "pergunta": "Quais as principais linhas imaginárias que cortam o Brasil?",
+        "dificuldade": 2,
+        "resposta": "Trópico de Capricórnio e Linha do Equador",
+        "falsas": [
+            "Trópico de Câncer e Linha do Equador",
+            "Trópico de Sagitário e Linha Venezuelana",
+            "Trópico Tropical e Linha do Equador",
+            "Trópico do Equador e Meridiano de Greenwich"
+        ]
+    },
+    {
+        "id": 43,
+        "pergunta": "Qual o estado brasileiro com a menor área (excluindo o Distrito Federal)?",
+        "dificuldade": 2,
+        "resposta": "Sergipe",
+        "falsas": [
+            "Espírito Santo",
+            "Alagoas",
+            "Rio Grande do Norte",
+            "Buenos Aires"
+        ]
+    },
+    {
+        "id": 44,
+        "pergunta": "Qual o estado brasileiro com a maior densidade demográfica (excluindo o Distrito Federal)?",
+        "dificuldade": 2,
+        "resposta": "Rio de Janeiro",
+        "falsas": [
+            "Flórida",
+            "Mato Grosso",
+            "São Paulo",
+            "Maranhão"
+        ]
+    },
+    {
+        "id": 45,
+        "pergunta": "Qual município do estado do Rio de Janeiro tem o mesmo nome de uma região do mundo fictício onde se passam as Crônicas de Gelo e Fogo, de George R.R. Martin, e o seriado Game of Thrones?",
+        "dificuldade": 2,
+        "resposta": "Porto Real",
+        "falsas": [
+            "Cabo Frio",
+            "Rio das Ostras",
+            "Porto Branco",
+            "Vila Velha"
+        ]
+    },
+    {
+        "id": 46,
+        "pergunta": "De acordo com o Censo 2010, o nome José apareceu em 5.754.529 brasileiros. Qual o estado em que este nome é mais comum?",
+        "dificuldade": 2,
+        "resposta": "Alagoas",
+        "falsas": [
+            "Paraná",
+            "Mato Grosso",
+            "Paraíba",
+            "Belém"
+        ]
+    },
+    {
+        "id": 47,
+        "pergunta": "Qual o dia em que se inicia cada uma das estações do ano no Hemisfério Sul em 2017?",
+        "dificuldade": 2,
+        "resposta": "Outono: 20/03; inverno: 21/06; primavera: 22/09; verão: 21/12",
+        "falsas": [
+            "Outono: 05/03; primavera: 12/06; inverno: 07/09; verão: 01/12",
+            "Outono: 30/03; inverno: 01/07; primavera: 01/10; verão: 31/12",
+            "Primavera: 20/03; verão: 21/06; outono: 22/09; inverno: 21/12",
+            "Outono: 21/03; inverno: 20/07; primavera: 20/09; verão: 20/12"
+        ]
+    },
+    {
+        "id": 48,
+        "pergunta": "Em que dia é comemorado o Aniversário do IBGE, o Dia do Estatístico e o Dia do Geógrafo?",
+        "dificuldade": 2,
+        "resposta": "29 de maio",
+        "falsas": [
+            "todo dia é dia de comemorar a estatística e a geografia no Brasil",
+            "06 de maio",
+            "22 de abril",
+            "07 de setembro"
+        ]
+    },
+    {
+        "id": 49,
+        "pergunta": "Quantos municípios o Brasil possui?",
+        "dificuldade": 2,
+        "resposta": "5.570",
+        "falsas": [
+            "27",
+            "112",
+            "16.994",
+            "4.003"
+        ]
+    },
+    {
+        "id": 50,
+        "pergunta": "Qual o município brasileiro que registrou o maior Índice de Desenvolvimento Humano Municipal em 2010?",
+        "dificuldade": 2,
+        "resposta": "São Caetano do Sul (SP)",
+        "falsas": [
+            "Porto Alegre (RS)",
+            "Rio de Janeiro (RJ)",
+            "Itajubá (MG)",
+            "Paraíso do Tocantins (TO)"
+        ]
+    },
+    {
+        "id": 51,
+        "pergunta": "Qual o município que tem a maior população urbana de indígenas?",
+        "dificuldade": 3,
+        "resposta": "São Paulo",
+        "falsas": [
+            "Roraima",
+            "Manaus",
+            "Rondônia",
+            "Florianópolis"
+        ]
+    },
+    {
+        "id": 52,
+        "pergunta": "Qual o estado brasileiro com o menor número de municípios (excluindo o Distrito Federal)?",
+        "dificuldade": 3,
+        "resposta": "Roraima",
+        "falsas": [
+            "Acre",
+            "Valfenda",
+            "Sergipe",
+            "Santa Catarina"
+        ]
+    },
+    {
+        "id": 53,
+        "pergunta": "Quais as Unidades da Federação brasileiras com a maior e a menor renda média domiciliar per capita?",
+        "dificuldade": 3,
+        "resposta": "Distrito Federal e Maranhão",
+        "falsas": [
+            "Rio Grande do Sul e Alagoas",
+            "São Paulo e Pará",
+            "Santa Catarina e Tocantins",
+            "Minas Gerais e Mato Grosso"
+        ]
+    },
+    {
+        "id": 54,
+        "pergunta": "Fernando de Noronha é um arquipélago pertencente a que estado?",
+        "dificuldade": 3,
+        "resposta": "Pernambuco",
+        "falsas": [
+            "Rio Grande do Norte",
+            "Alagoas",
+            "Piauí",
+            "Paraíba"
+        ]
+    },
+    {
+        "id": 55,
+        "pergunta": "Em todas as décadas desde 1930 até 2000, o nome mais popular no Brasil foi Maria. O segundo lugar, que costumava ser José, mudou na década de 1990. Qual o nome que passou a ser o segundo mais popular no país?",
+        "dificuldade": 3,
+        "resposta": "Ana",
+        "falsas": [
+            "João",
+            "Rafael",
+            "Julia",
+            "Cleysson"
+        ]
+    },
+    {
+        "id": 56,
+        "pergunta": "Que estado brasileiro tem o maior rebanho de búfalos",
+        "dificuldade": 3,
+        "resposta": "Pará",
+        "falsas": [
+            "Mato Grosso",
+            "Rio Grande do Sul",
+            "Maranhão",
+            "Minas Gerais"
+        ]
+    },
+    {
+        "id": 57,
+        "pergunta": "Qual o ano em que ocorreu o primeiro Censo Demográfico no Brasil?",
+        "dificuldade": 3,
+        "resposta": "1872",
+        "falsas": [
+            "1940",
+            "2001",
+            "1502",
+            "1650"
+        ]
+    },
+    {
+        "id": 58,
+        "pergunta": "Quais os 5 novos municípios incorporados ao mapa do Brasil em 2014?",
+        "dificuldade": 3,
+        "resposta": "Pinto Bandeira (RS), Pescaria Brava (SC), Balneário Rincão (SC), Paraíso das Águas (MT) e Mojuí dos Campos (PA)",
+        "falsas": [
+            "São Gonçalo (RJ), João Pessoa (PB), Cabedelo (PB), Cuiabá (MT), Manaus (AM)",
+            "Abaíra (BA), Santana (BA), Tarauacá (AC), Feijó (AC) e Açailândia (MA)",
+            "Axixá (MA), Bacuri (MA), Açu (RN) , Ceará-Mirim (RN) e Aguaí (SP).",
+            "Chapada da Natividade (TO), Chapada de Areia (TO), Ângulo (PR), Flórida (PR), Aperibé (RJ)"
+        ]
+    },
+    {
+        "id": 59,
+        "pergunta": "Qual dos seguintes animais é uma espécie em extinção do Bioma da Amazônia?",
+        "dificuldade": 3,
+        "resposta": "Ariranha",
+        "falsas": [
+            "Mico leão dourado",
+            "Baleia-franca",
+            "Lesmas de fogo",
+            "Dragão de comodo"
+        ]
+    },
+    {
+        "id": 60,
+        "pergunta": "O semiárido brasileiro é uma região que abrange quantos estados, e qual(is) a(s) Grande(s) Região(ões) em que se localizam?",
+        "dificuldade": 3,
+        "resposta": "9 estados das Regiões Nordeste e Sudeste",
+        "falsas": [
+            "9 estados da Região Nordeste",
+            "10 estados das Regiões Centro-Oeste e Nordeste",
+            "10 estados da Região Nordeste",
+            "8 estados das Regiões Arrakis e Tatooine"
+        ]
+    }
+]
