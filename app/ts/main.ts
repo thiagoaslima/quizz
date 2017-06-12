@@ -1,5 +1,5 @@
-import { BancoQuestoes } from './quizz/BancoQuestoes';
-import { Quizz } from './quizz/Quizz';
+import { BancoQuestoes } from './quiz/BancoQuestoes';
+import { Quiz } from './quiz/Quiz';
 
-const quizz = new Quizz(new BancoQuestoes());
-quizz.run();
+const quiz = new Quiz(new BancoQuestoes());
+quiz.run();

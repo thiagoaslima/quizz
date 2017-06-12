@@ -1,20 +1,20 @@
-System.register(["./quizz/BancoQuestoes", "./quizz/Quizz"], function (exports_1, context_1) {
+System.register(['./quiz/BancoQuestoes', './quiz/Quiz'], function(exports_1, context_1) {
     "use strict";
     var __moduleName = context_1 && context_1.id;
-    var BancoQuestoes_1, Quizz_1, quizz;
+    var BancoQuestoes_1, Quiz_1;
+    var quiz;
     return {
-        setters: [
+        setters:[
             function (BancoQuestoes_1_1) {
                 BancoQuestoes_1 = BancoQuestoes_1_1;
             },
-            function (Quizz_1_1) {
-                Quizz_1 = Quizz_1_1;
-            }
-        ],
-        execute: function () {
-            quizz = new Quizz_1.Quizz(new BancoQuestoes_1.BancoQuestoes());
-            quizz.run();
+            function (Quiz_1_1) {
+                Quiz_1 = Quiz_1_1;
+            }],
+        execute: function() {
+            quiz = new Quiz_1.Quiz(new BancoQuestoes_1.BancoQuestoes());
+            quiz.run();
         }
-    };
+    }
 });
 //# sourceMappingURL=main.js.map

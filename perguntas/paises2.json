@@ -1,0 +1,393 @@
+[
+    {
+        "id": 1,
+        "pergunta": "Qual a capital da Austrália?",
+        "dificuldade": 2,
+        "resposta": "Camberra",
+        "falsas": [
+            "ícil",
+            "Sidney",
+            "Melbourne",
+            "Brisbane",
+            "Adelaide"
+        ],
+        "conjunto": "paises"
+    },
+    {
+        "id": 2,
+        "pergunta": "Qual a capital do Canadá?",
+        "dificuldade": 2,
+        "resposta": "Ottawa",
+        "falsas": [
+            "Quebec",
+            "Toronto",
+            "Washington",
+            "Columbus"
+        ],
+        "conjunto": "paises"
+    },
+    {
+        "id": 3,
+        "pergunta": "Qual a esperança de vida na Alemanha?",
+        "dificuldade": 2,
+        "resposta": "80,9 anos",
+        "falsas": [
+            "84 anos",
+            "78 anos",
+            "75,3 anos",
+            "85,6 anos"
+        ],
+        "conjunto": "paises"
+    },
+    {
+        "id": 4,
+        "pergunta": "Qual a moeda utilizada na Indonésia?",
+        "dificuldade": 2,
+        "resposta": "Rúpia indonésia",
+        "falsas": [
+            "Rial indonésio",
+            "Tugrik",
+            "Rufia",
+            "Iene"
+        ],
+        "conjunto": "paises"
+    },
+    {
+        "id": 5,
+        "pergunta": "Em que continente fica Maurício?",
+        "dificuldade": 2,
+        "resposta": "África",
+        "falsas": [
+            "Europa",
+            "Ásia",
+            "América",
+            "Quem é Maurício?"
+        ],
+        "conjunto": "paises"
+    },
+    {
+        "id": 6,
+        "pergunta": "Qual é a moeda do Equador?",
+        "dificuldade": 2,
+        "resposta": "Dólar americano",
+        "falsas": [
+            "Peso equatoriano",
+            "Peseta",
+            "Real",
+            "Franco"
+        ],
+        "conjunto": "paises"
+    },
+    {
+        "id": 7,
+        "pergunta": "Que país do mundo tem a maior esperança de vida (83,7 anos)?",
+        "dificuldade": 2,
+        "resposta": "Japão",
+        "falsas": [
+            "Grécia",
+            "Suíça",
+            "França",
+            "Itália"
+        ],
+        "conjunto": "paises"
+    },
+    {
+        "id": 8,
+        "pergunta": "Qual o país com a maior quantidade de usuários de internet?",
+        "dificuldade": 2,
+        "resposta": "China",
+        "falsas": [
+            "Inglaterra",
+            "Estados Unidos",
+            "Brasil",
+            "Canadá"
+        ],
+        "conjunto": "paises"
+    },
+    {
+        "id": 9,
+        "pergunta": "Qual é o país com a maior quantidade de água potável do mundo?",
+        "dificuldade": 2,
+        "resposta": "Brasil",
+        "falsas": [
+            "Estados Unidos",
+            "China",
+            "Rússia",
+            "Canadá"
+        ],
+        "conjunto": "paises"
+    },
+    {
+        "id": 10,
+        "pergunta": "Qual é o país com o maior PIB Per Capita do mundo?",
+        "dificuldade": 2,
+        "resposta": "Mônaco",
+        "falsas": [
+            "Alemanha",
+            "Estados Unidos",
+            "Canadá",
+            "Vaticano"
+        ],
+        "conjunto": "paises"
+    },
+    {
+        "id": 11,
+        "pergunta": "Que países da América do Sul não fazem fronteira com o Brasil?",
+        "dificuldade": 1,
+        "resposta": "Chile e Equador",
+        "falsas": [
+            "Chile e Uruguai",
+            "Equador e Argentina",
+            "Suriname e Chile",
+            "Peru e Venezuela"
+        ],
+        "conjunto": "paises"
+    },
+    {
+        "id": 12,
+        "pergunta": "Qual a moeda utilizada no Reino Unido?",
+        "dificuldade": 1,
+        "resposta": "Libra esterlina",
+        "falsas": [
+            "Euro",
+            "Save the queen",
+            "Coroa inglesa",
+            "Libra inglesa"
+        ],
+        "conjunto": "paises"
+    },
+    {
+        "id": 13,
+        "pergunta": "Que oceano(s) banha(m) o Peru?",
+        "dificuldade": 1,
+        "resposta": "Oceano Pacífico",
+        "falsas": [
+            "Oceano Atlântico",
+            "Oceano Índico",
+            "Oceanos Atlântico e Pacífico",
+            "Oceanos Índico e Atlântico"
+        ],
+        "conjunto": "paises"
+    },
+    {
+        "id": 14,
+        "pergunta": "Qual desses países não é banhado pelo mar?",
+        "dificuldade": 1,
+        "resposta": "Suíça",
+        "falsas": [
+            "Brasil",
+            "Itália",
+            "Costa Rica",
+            "Espanha"
+        ],
+        "conjunto": "paises"
+    },
+    {
+        "id": 15,
+        "pergunta": "Em qual continente se localiza Botswana?",
+        "dificuldade": 1,
+        "resposta": "África",
+        "falsas": [
+            "Europa",
+            "Ásia",
+            "América Central",
+            "Oceania"
+        ],
+        "conjunto": "paises"
+    },
+    {
+        "id": 16,
+        "pergunta": "Qual é a língua oficial do Cabo Verde?",
+        "dificuldade": 1,
+        "resposta": "Português",
+        "falsas": [
+            "Francês",
+            "Inglês",
+            "Amárico",
+            "Caboverdiano"
+        ],
+        "conjunto": "paises"
+    },
+    {
+        "id": 17,
+        "pergunta": "Em qual continente fica o Tahiti?",
+        "dificuldade": 1,
+        "resposta": "Oceania",
+        "falsas": [
+            "América Central",
+            "África",
+            "Europa",
+            "Ásia"
+        ],
+        "conjunto": "paises"
+    },
+    {
+        "id": 18,
+        "pergunta": "Qual o meridiano que, por convenção, divide o Globo Terrestre em oriente e ocidente?",
+        "dificuldade": 1,
+        "resposta": "Meridiano de Greenwich",
+        "falsas": [
+            "Meridiano Médio",
+            "Meridiano Orientador",
+            "Meridiano de Nárnia",
+            "Meridiano Meso-Central"
+        ],
+        "conjunto": "paises"
+    },
+    {
+        "id": 19,
+        "pergunta": "Onde nasceu Steve Jobs?",
+        "dificuldade": 1,
+        "resposta": "São Francisco",
+        "falsas": [
+            "Palo Alto",
+            "NovaYork",
+            "Austin",
+            "Ottawa"
+        ],
+        "conjunto": "paises"
+    },
+    {
+        "id": 20,
+        "pergunta": "Em qual cidade fica o Beco Diagonal de Harry Potter?",
+        "dificuldade": 1,
+        "resposta": "Londres",
+        "falsas": [
+            "Dorne",
+            "Porto Real",
+            "Cambridge",
+            "Manchester"
+        ],
+        "conjunto": "paises"
+    },
+    {
+        "id": 21,
+        "pergunta": "Qual a capital dos Estados Unidos?",
+        "dificuldade": 0,
+        "resposta": "Washington",
+        "falsas": [
+            "Nova York",
+            "Miami",
+            "Los Angeles",
+            "San Francisco"
+        ],
+        "conjunto": "paises"
+    },
+    {
+        "id": 22,
+        "pergunta": "Qual o país com a maior extensão territorial do mundo?",
+        "dificuldade": 0,
+        "resposta": "Rússia",
+        "falsas": [
+            "Canadá",
+            "Brasil",
+            "Estados Unidos",
+            "China"
+        ],
+        "conjunto": "paises"
+    },
+    {
+        "id": 23,
+        "pergunta": "Em que continente está localizado Portugal?",
+        "dificuldade": 0,
+        "resposta": "Europa",
+        "falsas": [
+            "América do Sul",
+            "África",
+            "Ásia",
+            "Oceania"
+        ],
+        "conjunto": "paises"
+    },
+    {
+        "id": 24,
+        "pergunta": "Qual a moeda utilizada na Argentina?",
+        "dificuldade": 0,
+        "resposta": "Peso argentino",
+        "falsas": [
+            "Peso",
+            "Peso andino",
+            "Novo sol",
+            "Maradona"
+        ],
+        "conjunto": "paises"
+    },
+    {
+        "id": 25,
+        "pergunta": "Qual o país com a maior população do mundo?",
+        "dificuldade": 0,
+        "resposta": "China",
+        "falsas": [
+            "Índia",
+            "Indonésia",
+            "Rússia",
+            "Estados Unidos"
+        ],
+        "conjunto": "paises"
+    },
+    {
+        "id": 26,
+        "pergunta": "Qual é a moeda do Uruguai?",
+        "dificuldade": 0,
+        "resposta": "Peso",
+        "falsas": [
+            "Dólar",
+            "Euro",
+            "Real",
+            "Uruguaiana"
+        ],
+        "conjunto": "paises"
+    },
+    {
+        "id": 27,
+        "pergunta": "Em qual país nasceu Bob Marley?",
+        "dificuldade": 0,
+        "resposta": "Jamaica",
+        "falsas": [
+            "Estados Unidos",
+            "Inglaterra",
+            "Cuba",
+            "África do Sul"
+        ],
+        "conjunto": "paises"
+    },
+    {
+        "id": 28,
+        "pergunta": "Em qual continente se localiza a Nova Zelândia?",
+        "dificuldade": 0,
+        "resposta": "Oceania",
+        "falsas": [
+            "Ásia",
+            "América",
+            "Europa",
+            "África"
+        ],
+        "conjunto": "paises"
+    },
+    {
+        "id": 29,
+        "pergunta": "Qual é a língua oficial da Arábia Saudita?",
+        "dificuldade": 0,
+        "resposta": "Árabe",
+        "falsas": [
+            "Saudita",
+            "Aramaico",
+            "Hebraico",
+            "Francês"
+        ],
+        "conjunto": "paises"
+    },
+    {
+        "id": 30,
+        "pergunta": "Em qual continente fica o Egito?",
+        "dificuldade": 0,
+        "resposta": "África",
+        "falsas": [
+            "Ásia",
+            "Europa",
+            "América",
+            "Oceania"
+        ],
+        "conjunto": "paises"
+    }
+]

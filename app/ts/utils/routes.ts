@@ -3,5 +3,5 @@ export function goToHash(hash: string) {
 }
 
 export function getHash(): string {
-    return window.location.hash;
+    return window.location.hash.replace('#', '').trim();
 }

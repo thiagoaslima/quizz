@@ -1,18 +1,20 @@
-var path = 'brasil'
+var path = 'paises2',
+    conjunto = "paises"
+
 
 var fs = require("fs");
 fs.readFile(path + '.txt', function (err, f) {
     var linhas = f.toString().split('\n');
     var json = [];
-    var id = 30;
+    var id = 0;
     var pergunta = linhas.reduce(function (obj, linha, idx) {
         linha = linha.trim();
         var primeiroCaracter = linha.charAt(0).toLowerCase();
         
         if (linha === '') return obj;
-        if (linha === "Fácil") { obj.dificuldade = 1 }
-        if (linha === "Moderado") { obj.dificuldade = 2 }
-        if (linha === "Difícil") { obj.dificuldade = 3 }
+        if (linha === "Fácil") { obj.dificuldade = 0 }
+        if (linha === "Moderado") { obj.dificuldade = 1 }
+        if (linha === "Difícil") { obj.dificuldade = 2 }
 
         if (!isNaN(parseInt(primeiroCaracter, 10))) {
             obj.id = ++id;
@@ -38,14 +40,15 @@ fs.readFile(path + '.txt', function (err, f) {
                     "imagens": obj.imagens,
                     "dificuldade": obj.dificuldade,
                     "resposta": obj.resposta,
-                    "falsas": obj.falsas
+                    "falsas": obj.falsas,
+                    "conjunto": conjunto
                 });
                 obj = { dificuldade: obj.dificuldade, falsas: [] }
                 break;
         }
 
         return obj;
-    }, { dificuldade: 1, falsas: [] })
+    }, { dificuldade: 0, falsas: [] })
 
     fs.writeFile('../perguntas/' + path + '.json', JSON.stringify(json), function(err) {
         if(err) {
