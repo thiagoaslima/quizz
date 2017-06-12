@@ -1,4 +1,4 @@
-export interface Questao {
+export interface IQuestao {
     id: number
     pergunta: string
     dificuldade: number

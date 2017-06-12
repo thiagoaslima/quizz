@@ -1,7 +1,7 @@
-import { Questao } from './questao.interface';
+import { IQuestao } from './questao.interface';
 
-export interface Quizz {
-    listaQuestoes: { [assunto: string]: Questao[] }
+export interface IQuizz {
+    listaQuestoes: { [assunto: string]: IQuestao[] }
     totalQuestoes: number
     questaoAtual: number
 }

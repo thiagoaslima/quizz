@@ -1,11 +1,12 @@
-System.register(["./dificuldade.enum"], function (exports_1, context_1) {
+System.register(["./random"], function (exports_1, context_1) {
     "use strict";
     var __moduleName = context_1 && context_1.id;
     return {
         setters: [
-            function (dificuldade_enum_1_1) {
+            function (random_1_1) {
                 exports_1({
-                    "dificuldade": dificuldade_enum_1_1["dificuldade"]
+                    "getRandomInteger": random_1_1["getRandomInteger"],
+                    "shuffleArray": random_1_1["shuffleArray"]
                 });
             }
         ],

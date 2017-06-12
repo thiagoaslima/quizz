@@ -7,4 +7,4 @@ System.register([], function (exports_1, context_1) {
         }
     };
 });
-//# sourceMappingURL=quizz.interface.js.map
+//# sourceMappingURL=bancoQuestoes.interface.js.map

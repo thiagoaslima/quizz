@@ -1,3 +1,5 @@
-import { splashScreen } from './telas/splash.screen';
+import { BancoQuestoes } from './quizz/BancoQuestoes';
+import { Quizz } from './quizz/Quizz';
 
-splashScreen.render();
+const quizz = new Quizz(new BancoQuestoes());
+quizz.run();

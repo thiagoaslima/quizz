@@ -1,6 +1,6 @@
-import { Tela } from '../interfaces';
+import { ITela } from '../interfaces/index';
 
-export const splashScreen: Tela = {
+export const splashScreen: ITela = {
     template: `<div class="splash">
             <div class="pure-g">
                 <div class="pure-u-1">
@@ -13,5 +13,9 @@ export const splashScreen: Tela = {
 
     render(container: HTMLElement = document.body) {
         container.innerHTML = this.template;
+    },
+
+    getHTML(): string {
+        return this.template;
     }
 }
