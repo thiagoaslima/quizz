@@ -10,25 +10,45 @@ import { IQuestao, dificuldade } from '../interfaces/index';
 const jQuery: any = window['jQuery']
 
 export class Quiz {
-    private _questoes = [{
+    private _questoes = [
+    {
+        dificuldade: dificuldade.facil,
+        conjunto: 'biomas'
+    }, 
+    {
+        dificuldade: dificuldade.medio,
+        conjunto: 'biomas'
+    }, 
+    {
+        dificuldade: dificuldade.dificil,
+        conjunto: 'biomas'
+    },
+    {
         dificuldade: dificuldade.facil,
         conjunto: 'brasil'
-    }, {
+    }, 
+    {
         dificuldade: dificuldade.medio,
         conjunto: 'brasil'
-    }, {
+    }, 
+    {
         dificuldade: dificuldade.dificil,
         conjunto: 'brasil'
-    }, {
+    }, 
+    {
         dificuldade: dificuldade.facil,
         conjunto: 'paises'
-    }, {
+    }, 
+    {
         dificuldade: dificuldade.medio,
         conjunto: 'paises'
-    }, {
+    }, 
+    {
         dificuldade: dificuldade.dificil,
         conjunto: 'paises'
-    }]
+    }, 
+    
+    ]
 
     public paginaAtual: number | string = 0;
     public timer = 0;
@@ -48,7 +68,7 @@ export class Quiz {
 
          jQuery('body').on('click', '.enviar', function(evt:MouseEvent) {
             const name = jQuery('.seunome').val();
-            console.log(name);
+            
 
             goToHash('0');
         })
@@ -56,11 +76,15 @@ export class Quiz {
         jQuery('body').on('click', '.resposta', function(evt:MouseEvent) {
             if (!self.questaoAtual) { return; }
 
+            self.timer += 2;
+            
             if (jQuery(this).text() === self.questaoAtual.resposta) {
                 let next = parseInt(self.paginaAtual.toString(), 10) + 1
-                goToHash(next.toString());
+                jQuery(this).addClass('certa')
+                setTimeout(function (){ goToHash(next.toString()) }, 2000);
             } else {
-                goToHash('erro');
+                jQuery(this).addClass('errada')
+                setTimeout(function (){ goToHash('erro') }, 2000);
             }
         })
 
@@ -130,7 +154,7 @@ export class Quiz {
         const {conjunto, dificuldade} = this._questoes[index-1]
         this.questaoAtual = this._banco.sortearQuestao(conjunto, dificuldade);
         if (this.paginaAtual === 1) {
-            this.timer = 30;
+            this.timer = 25;
             QuestaoScreen.render(this.questaoAtual, self.formatTimer(), document.body);
             this.startClock();
         } else {
@@ -158,13 +182,13 @@ export class Quiz {
 
     private addTime(questao: IQuestao): void {
         if (questao.dificuldade === 0) {
-            this.timer += 15
+            this.timer += 5
         }
         if (questao.dificuldade === 1) {
-            this.timer += 20
+            this.timer += 10
         }
         if (questao.dificuldade === 2) {
-            this.timer += 30
+            this.timer += 15
         }
     }
 

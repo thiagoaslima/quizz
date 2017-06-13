@@ -234,3 +234,57 @@ h4 {
     font-family: 'luckiest_guyregular', Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     padding: 20px;
 }
+
+.foto img {
+    max-width: 60%;
+}
+
+.resposta.certa {
+    animation-name: certa;
+    animation-duration: 4s;
+}
+
+@keyframes certa {
+    0%  { background-color:white }
+    5%   { background-color:lawngreen }
+    10%  { background-color:white }
+    15%  { background-color:lawngreen }
+    20%  { background-color:white }
+    25% { background-color:lawngreen }
+    30%  { background-color:white }
+    35%   { background-color:lawngreen } 
+    40%  { background-color:white }
+    45%   { background-color:lawngreen }
+    50%  { background-color:white }
+    55%  { background-color:lawngreen }
+    60%  { background-color:white }
+    65% { background-color:lawngreen }
+    70%  { background-color:white }
+    75%   { background-color:lawngreen } 
+    100%   { background-color:lawngreen } 
+}
+
+.resposta.errada {
+    animation-name: errada;
+    animation-duration: 4s;
+}
+
+@keyframes errada {
+    0%  { background-color:white }
+    5%   { background-color:orangered }
+    10%  { background-color:white }
+    15%  { background-color:orangered }
+    20%  { background-color:white }
+    25% { background-color:orangered }
+    30%  { background-color:white }
+    35%   { background-color:orangered } 
+    40%  { background-color:white }
+    45%   { background-color:orangered }
+    50%  { background-color:white }
+    55%  { background-color:orangered }
+    60%  { background-color:white }
+    65% { background-color:orangered }
+    70%  { background-color:white }
+    75%   { background-color:orangered } 
+    100%   { background-color:orangered } 
+}

@@ -3,7 +3,6 @@
 Fácil
 
 1- Qual é a capital de Pernambuco?
-
 a) Recife
 b) Rio de Janeiro
 c) Cuiabá
@@ -12,7 +11,6 @@ e) Manaus
 
 
 2- Qual dessas cidades está localizada no Brasil?
-
 a) Pindamonhangaba
 b) Mangacatapinha
 c) Isengard
@@ -21,34 +19,27 @@ e) Goiabada
 
 
 3- Em qual região se localiza o estado do Mato Grosso?
-
 a) Centro-Oeste
 b) Sul
 c) Nordeste
 d) Sudeste
 e) Norte
 
-
 4- Quem nasce no município de Aracaju é:
-
 a) Aracajuano
 b) Um caju
 c) Cajuano
 d) Cajueiro
 e) Araqueiro
 
-
 5- Qual desses estados não é banhado pelo mar?
-
 a) Minas Gerais
 b) Bahia
 c) Espírito Santo
 d) Ceará
 e) Paraíba
 
-
 6- Qual é o maior rio do Brasil?
-
 a) Amazonas
 b) Paraná
 c) São Francisco
@@ -56,15 +47,13 @@ d) Rio de Janeiro
 e) Araguaia
 
 7- Qual o estado brasileiro com a maior população?
-
 a) São Paulo
 b) Tocantins
 c) Braavos
 d) Minas Gerais
 e) Maranhão
 
-8- Segundo a Harry Potter wiki, o Brasil é lar de uma comunidade bruxa comparável à do Reino Unido. Os municípios de Caxambu, Manaus e Teresina aparentemente possuem significativas populações mágicas. Em que estados se localizam estes três municípios?
-
+8- Segundo a Harry Potter wiki, as cidades brasileiras de Caxambu, Manaus e Teresina podem possuir populações mágicas. Em que estados elas se localizam?
 a) Minas Gerais, Amazonas e Piauí
 b) Espírito Santo, Pará e Alagoas
 c) Minas Gerais, Pará e Piauí
@@ -72,15 +61,13 @@ d) Espírito Santo, Amazonas e Piauí
 e) Espírito Santo, Azkaban e Alagoas
 
 9- Qual é o estado brasileiro com maior extensão?
-
 a) Amazonas
 b) São Paulo
 c) Minas Gerais
 d) Pará
-e) Mata Grosso
+e) Mato Grosso
 
 10- Qual o tipo de relevo predominante em Brasília?
-
 a) Planalto
 b) Depressão
 c) Serra
@@ -91,7 +78,6 @@ e) Tabuleiro
 Moderado
 
 1- Quantas pessoas vivem no Brasil?
-
 a) Entre 200 e 210 milhões
 b) Entre 150 e 170 milhões
 c) Entre 90 e 100 milhões
@@ -99,15 +85,13 @@ d) 1 bilhão
 e) Entre 500 e 550 milhões
 
 2- Quais as principais linhas imaginárias que cortam o Brasil?
-
 a) Trópico de Capricórnio e Linha do Equador
 b) Trópico de Câncer e Linha do Equador
 c) Trópico de Sagitário e Linha Venezuelana
 d) Trópico Tropical e Linha do Equador
 e) Trópico do Equador e Meridiano de Greenwich
 
-3-Qual o estado brasileiro com a menor área (excluindo o Distrito Federal)?
-
+3- Qual o estado brasileiro com a menor área (excluindo o Distrito Federal)?
 a) Sergipe
 b) Espírito Santo
 c) Alagoas
@@ -115,39 +99,34 @@ d) Rio Grande do Norte
 e) Buenos Aires
 
 4- Qual o estado brasileiro com a maior densidade demográfica (excluindo o Distrito Federal)?
-
 a) Rio de Janeiro
 b) Flórida
 c) Mato Grosso
 d) São Paulo
 e) Maranhão
 
-5- Qual município do estado do Rio de Janeiro tem o mesmo nome de uma região do mundo fictício onde se passam as Crônicas de Gelo e Fogo, de George R.R. Martin, e o seriado Game of Thrones?
-
+5- Qual município do estado do Rio de Janeiro tem o mesmo nome de uma região de Westeros (Game of Thrones)?
 a) Porto Real
 b) Cabo Frio
 c) Rio das Ostras
 d) Porto Branco
-e) Vilavelha
+e) Vila Velha
 
 6- De acordo com o Censo 2010, o nome José apareceu em 5.754.529 brasileiros. Qual o estado em que este nome é mais comum?
-
 a) Alagoas
 b) Paraná
 c) Mato Grosso
 d) Paraíba
 e) Belém
 
-7- Qual o dia em que se inicia cada uma das estações do ano no Hemisfério Sul em 2017?
-
-a) Outono: 20/03; inverno: 21/06; primavera: 22/09; verão: 21/12
-b) Outono: 05/03; primavera: 12/06; inverno: 07/09; verão: 01/12
-c) Outono: 30/03; inverno: 01/07; primavera: 01/10; verão: 31/12
-d) Primavera: 20/03; verão: 21/06; outono: 22/09; inverno: 21/12
-e) Outono: 21/03; inverno: 20/07; primavera: 20/09; verão: 20/12
+7- Quais os dias em que se iniciam o inverno e o verão no Hemisfério Sul em 2017?
+a) 21/06 e 21/12
+b) 20/03 e 22/09
+c) 01/07 e 12/12
+d) 20/05 e 20/11
+e) 22/06 e 20/12
 
 8- Em que dia é comemorado o Aniversário do IBGE, o Dia do Estatístico e o Dia do Geógrafo?
-
 a) 29 de maio
 b) todo dia é dia de comemorar a estatística e a geografia no Brasil
 c) 06 de maio
@@ -155,7 +134,6 @@ d) 22 de abril
 e) 07 de setembro
 
 9- Quantos municípios o Brasil possui?
-
 a) 5.570
 b) 27
 c) 112
@@ -163,7 +141,6 @@ d) 16.994
 e) 4.003
 
 10- Qual o município brasileiro que registrou o maior Índice de Desenvolvimento Humano Municipal em 2010?
-
 a) São Caetano do Sul (SP)
 b) Porto Alegre (RS)
 c) Rio de Janeiro (RJ)
@@ -174,7 +151,6 @@ e) Paraíso do Tocantins (TO)
 Difícil
 
 1- Qual o município que tem a maior população urbana de indígenas?
-
 a) São Paulo
 b) Roraima
 c) Manaus
@@ -182,7 +158,6 @@ d) Rondônia
 e) Florianópolis
 
 2- Qual o estado brasileiro com o menor número de municípios (excluindo o Distrito Federal)?
-
 a) Roraima
 b) Acre
 c) Valfenda
@@ -197,7 +172,6 @@ d) Santa Catarina e Tocantins
 e) Minas Gerais e Mato Grosso
 
 4- Fernando de Noronha é um arquipélago pertencente a que estado?
-
 a) Pernambuco
 b) Rio Grande do Norte
 c) Alagoas
@@ -205,7 +179,6 @@ d) Piauí
 e) Paraíba
 
 5- Em todas as décadas desde 1930 até 2000, o nome mais popular no Brasil foi Maria. O segundo lugar, que costumava ser José, mudou na década de 1990. Qual o nome que passou a ser o segundo mais popular no país?
-
 a) Ana
 b) João
 c) Rafael
@@ -213,7 +186,6 @@ d) Julia
 e) Cleysson
 
 6- Que estado brasileiro tem o maior rebanho de búfalos
-
 a) Pará
 b) Mato Grosso
 c) Rio Grande do Sul
@@ -221,23 +193,20 @@ d) Maranhão
 e) Minas Gerais
 
 7- Qual o ano em que ocorreu o primeiro Censo Demográfico no Brasil?
-
 a) 1872
 b) 1940
 c) 2001
 d) 1502
 e) 1650
 
-8- Quais os 5 novos municípios incorporados ao mapa do Brasil em 2014?
-
-a) Pinto Bandeira (RS), Pescaria Brava (SC), Balneário Rincão (SC), Paraíso das Águas (MT) e Mojuí dos Campos (PA)
-b) São Gonçalo (RJ), João Pessoa (PB), Cabedelo (PB), Cuiabá (MT), Manaus (AM)
-c) Abaíra (BA), Santana (BA), Tarauacá (AC), Feijó (AC) e Açailândia (MA)
-d) Axixá (MA), Bacuri (MA), Açu (RN) , Ceará-Mirim (RN) e Aguaí (SP).
-e) Chapada da Natividade (TO), Chapada de Areia (TO), Ângulo (PR), Flórida (PR), Aperibé (RJ)
+8- Quais destes estão entre os novos municípios incorporados ao mapa do Brasil em 2014?
+a) Pinto Bandeira (RS) e Paraíso das Águas (MT)
+b) São Gonçalo (RJ) e Cabedelo (PB)
+c) Abaíra (BA) e Açailândia (MA)
+d) Bacuri (MA) e Ceará-Mirim (RN)
+e) Chapada de Areia (TO) e Flórida (PR)
 
 9- Qual dos seguintes animais é uma espécie em extinção do Bioma da Amazônia?
-
 a) Ariranha
 b) Mico leão dourado
 c) Baleia-franca
@@ -245,7 +214,6 @@ d) Lesmas de fogo
 e) Dragão de comodo
 
 10- O semiárido brasileiro é uma região que abrange quantos estados, e qual(is) a(s) Grande(s) Região(ões) em que se localizam?
-
 a) 9 estados das Regiões Nordeste e Sudeste
 b) 9 estados da Região Nordeste
 b) 10 estados das Regiões Centro-Oeste e Nordeste

@@ -31,25 +31,44 @@ System.register(['../telas/ganhou.screen', '../telas/erro.screen', '../telas/tem
             Quiz = (function () {
                 function Quiz(_banco) {
                     this._banco = _banco;
-                    this._questoes = [{
+                    this._questoes = [
+                        {
+                            dificuldade: index_1.dificuldade.facil,
+                            conjunto: 'biomas'
+                        },
+                        {
+                            dificuldade: index_1.dificuldade.medio,
+                            conjunto: 'biomas'
+                        },
+                        {
+                            dificuldade: index_1.dificuldade.dificil,
+                            conjunto: 'biomas'
+                        },
+                        {
                             dificuldade: index_1.dificuldade.facil,
                             conjunto: 'brasil'
-                        }, {
+                        },
+                        {
                             dificuldade: index_1.dificuldade.medio,
                             conjunto: 'brasil'
-                        }, {
+                        },
+                        {
                             dificuldade: index_1.dificuldade.dificil,
                             conjunto: 'brasil'
-                        }, {
+                        },
+                        {
                             dificuldade: index_1.dificuldade.facil,
                             conjunto: 'paises'
-                        }, {
+                        },
+                        {
                             dificuldade: index_1.dificuldade.medio,
                             conjunto: 'paises'
-                        }, {
+                        },
+                        {
                             dificuldade: index_1.dificuldade.dificil,
                             conjunto: 'paises'
-                        }];
+                        },
+                    ];
                     this.paginaAtual = 0;
                     this.timer = 0;
                     this.questaoAtual = null;
@@ -63,19 +82,21 @@ System.register(['../telas/ganhou.screen', '../telas/erro.screen', '../telas/tem
                     });
                     jQuery('body').on('click', '.enviar', function (evt) {
                         var name = jQuery('.seunome').val();
-                        console.log(name);
                         routes_1.goToHash('0');
                     });
                     jQuery('body').on('click', '.resposta', function (evt) {
                         if (!self.questaoAtual) {
                             return;
                         }
+                        self.timer += 2;
                         if (jQuery(this).text() === self.questaoAtual.resposta) {
-                            var next = parseInt(self.paginaAtual.toString(), 10) + 1;
-                            routes_1.goToHash(next.toString());
+                            var next_1 = parseInt(self.paginaAtual.toString(), 10) + 1;
+                            jQuery(this).addClass('certa');
+                            setTimeout(function () { routes_1.goToHash(next_1.toString()); }, 2000);
                         }
                         else {
-                            routes_1.goToHash('erro');
+                            jQuery(this).addClass('errada');
+                            setTimeout(function () { routes_1.goToHash('erro'); }, 2000);
                         }
                     });
                     jQuery('body').on('click', '.recomecar', function (evt) {
@@ -136,7 +157,7 @@ System.register(['../telas/ganhou.screen', '../telas/erro.screen', '../telas/tem
                     var _a = this._questoes[index - 1], conjunto = _a.conjunto, dificuldade = _a.dificuldade;
                     this.questaoAtual = this._banco.sortearQuestao(conjunto, dificuldade);
                     if (this.paginaAtual === 1) {
-                        this.timer = 30;
+                        this.timer = 25;
                         questao_screen_1.QuestaoScreen.render(this.questaoAtual, self.formatTimer(), document.body);
                         this.startClock();
                     }
@@ -163,13 +184,13 @@ System.register(['../telas/ganhou.screen', '../telas/erro.screen', '../telas/tem
                 };
                 Quiz.prototype.addTime = function (questao) {
                     if (questao.dificuldade === 0) {
-                        this.timer += 15;
+                        this.timer += 5;
                     }
                     if (questao.dificuldade === 1) {
-                        this.timer += 20;
+                        this.timer += 10;
                     }
                     if (questao.dificuldade === 2) {
-                        this.timer += 30;
+                        this.timer += 15;
                     }
                 };
                 Quiz.prototype.formatTimer = function () {

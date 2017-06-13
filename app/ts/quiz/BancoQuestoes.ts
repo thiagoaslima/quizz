@@ -11,6 +11,9 @@ export class BancoQuestoes implements IBancoQuestoes {
         let questoes = this._getQuestoes(conjunto, dificuldade);
         let idx = getRandomInteger(0, questoes.length-1);
         let questao = this._extractQuestao(conjunto, dificuldade, idx);
+
+        console.log(this._questoes);
+
         return {
             id: questao.id,
             pergunta: questao.pergunta,

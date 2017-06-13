@@ -21,13 +21,14 @@ System.register([], function(exports_1, context_1) {
                         .replace('{{ pergunta }}', this.pergunta.replace('{{ texto }}', questao.pergunta))
                         .replace('{{ timer }}', this.timer.replace('{{ tempo }}', tempo))
                         .replace('{{ questoes }}', this.questoes.replace('{{ questao }}', this._buildOpcoes(questao.opcoes)))
-                        .replace('{{ foto }}', questao.imagemSrc ? this.foto.replace('{{ src }}', questao.imagemSrc) : '<div class="pure-u-1-2 foto"></div>')
+                        .replace('{{ foto }}', questao.imagemSrc ? this.foto.replace('{{ src }}', 'img/' + questao.imagemSrc) : '<div class="pure-u-1-2 foto"></div>')
                         .replace('{{ paginacao }}', this.paginacao);
                     return tmpl;
                 },
                 classes: {
                     brasil: 'fundo2',
-                    paises: 'fundo1'
+                    paises: 'fundo1',
+                    biomas: 'fundo3'
                 },
                 _buildOpcoes: function (opcoes) {
                     var _this = this;
@@ -41,8 +42,17 @@ System.register([], function(exports_1, context_1) {
                 },
                 updateScreen: function (questao, tempo, paginacao) {
                     this.updateQuestao(questao);
+                    this.updateImagem(questao);
                     this.updateTimer(tempo);
                     this.updatePaginacao(paginacao);
+                },
+                updateImagem: function (questao) {
+                    if (questao.imagemSrc) {
+                        jQuery('.foto').replaceWith(this.foto.replace('{{ src }}', 'img/' + questao.imagemSrc));
+                    }
+                    else {
+                        jQuery('.foto').html('');
+                    }
                 },
                 updateQuestao: function (questao) {
                     var self = this;

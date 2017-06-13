@@ -21,6 +21,7 @@ System.register(['../utils/random', './banco'], function(exports_1, context_1) {
                     var questoes = this._getQuestoes(conjunto, dificuldade);
                     var idx = random_1.getRandomInteger(0, questoes.length - 1);
                     var questao = this._extractQuestao(conjunto, dificuldade, idx);
+                    console.log(this._questoes);
                     return {
                         id: questao.id,
                         pergunta: questao.pergunta,

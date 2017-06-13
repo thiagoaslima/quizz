@@ -77,7 +77,7 @@ export const QuestaoScreen = {
             .replace('{{ pergunta }}', this.pergunta.replace('{{ texto }}', questao.pergunta))
             .replace('{{ timer }}', this.timer.replace('{{ tempo }}', tempo))
             .replace('{{ questoes }}', this.questoes.replace('{{ questao }}', this._buildOpcoes(questao.opcoes)))
-            .replace('{{ foto }}', questao.imagemSrc ? this.foto.replace('{{ src }}', questao.imagemSrc) : '<div class="pure-u-1-2 foto"></div>')
+            .replace('{{ foto }}', questao.imagemSrc ? this.foto.replace('{{ src }}', 'img/' + questao.imagemSrc) : '<div class="pure-u-1-2 foto"></div>')
             .replace('{{ paginacao }}', this.paginacao)
             ;
 
@@ -86,7 +86,8 @@ export const QuestaoScreen = {
 
     classes: {
         brasil: 'fundo2',
-        paises: 'fundo1'
+        paises: 'fundo1',
+        biomas: 'fundo3'
     },
 
     _buildOpcoes(opcoes: string[]): string {
@@ -101,8 +102,17 @@ export const QuestaoScreen = {
 
     updateScreen(questao: IQuestao, tempo: string, paginacao: number) {
         this.updateQuestao(questao);
+        this.updateImagem(questao)
         this.updateTimer(tempo);
         this.updatePaginacao(paginacao);
+    },
+
+    updateImagem(questao: IQuestao) {
+        if (questao.imagemSrc) {
+            jQuery('.foto').replaceWith(this.foto.replace('{{ src }}', 'img/' + questao.imagemSrc))
+        } else {
+            jQuery('.foto').html('')
+        }
     },
 
     updateQuestao(questao: IQuestao) {

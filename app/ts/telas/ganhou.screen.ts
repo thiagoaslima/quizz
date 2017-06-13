@@ -6,8 +6,8 @@ export const vitoriaScreen: ITela = {
              <div class="pure-g">
                 <div class="pure-u-1">
                     <h1>Parabéns! Você acertou<br>todas as perguntas!</h1>
-                    <h2>Digite seu nome e procure-nos para ganhar seu atlas</h2>
-                    <input class="seunome" type="text" placeholder="seu nome">
+                    <h2>Digite seu email e procure-nos para ganhar seu atlas</h2>
+                    <input class="seunome" type="email" placeholder="seu email">
                     <br> 
                     <button class="resposta enviar">Enviar</button>
                 </div>

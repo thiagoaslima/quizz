@@ -1,5 +1,5 @@
-var path = 'paises2',
-    conjunto = "paises"
+var path = 'brasil',
+    conjunto = "brasil"
 
 
 var fs = require("fs");
