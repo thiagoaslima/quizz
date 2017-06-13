@@ -1,0 +1,353 @@
+[
+    {
+        "id": 61,
+        "pergunta": "Localizado no litoral do Brasil, qual é o bioma mais ameaçado do País?",
+        "dificuldade": 0,
+        "resposta": "Mata Atlântica",
+        "falsas": [
+            "Pantanal",
+            "Amazônia",
+            "Cerrado",
+            "Caatinga"
+        ],
+        "conjunto": "biomas"
+    },
+    {
+        "id": 62,
+        "pergunta": "Que bioma é conhecido como a maior planície de inundação contínua do Planeta Terra?",
+        "dificuldade": 0,
+        "resposta": "Pantanal",
+        "falsas": [
+            "Amazônia",
+            "Cerrado",
+            "Mata Atlântica",
+            "Pampas"
+        ],
+        "conjunto": "biomas"
+    },
+    {
+        "id": 63,
+        "pergunta": "Em qual(is) estado(s) brasileiro(s) encontramos o Bioma Pampa?",
+        "dificuldade": 0,
+        "resposta": "Rio Grande do Sul",
+        "falsas": [
+            "Rio Grande do Sul, Santa Catarina e Paraná",
+            "Paraná e Mato Grosso do Sul",
+            "Mato Grosso do Sul",
+            "Santa Catarina e Paraná"
+        ],
+        "conjunto": "biomas"
+    },
+    {
+        "id": 64,
+        "pergunta": "Qual o Bioma em que está localizado o estado do Rio de Janeiro?",
+        "dificuldade": 0,
+        "resposta": "Mata Atlântica",
+        "falsas": [
+            "Amazônia",
+            "Pampa",
+            "Maravilha",
+            "Cerrado"
+        ],
+        "conjunto": "biomas"
+    },
+    {
+        "id": 65,
+        "pergunta": "Qual o Bioma em que se localiza o Distrito Federal?",
+        "dificuldade": 0,
+        "resposta": "Cerrado",
+        "falsas": [
+            "Caatinga",
+            "Pantanal",
+            "Pampa",
+            "Tundra"
+        ],
+        "conjunto": "biomas"
+    },
+    {
+        "id": 66,
+        "pergunta": "Qual o Bioma em que está localizado o estado do Ceará?",
+        "dificuldade": 0,
+        "resposta": "Caatinga",
+        "falsas": [
+            "Pampa",
+            "Mata Atlântica",
+            "Sarapatel",
+            "Pantanal"
+        ],
+        "conjunto": "biomas"
+    },
+    {
+        "id": 67,
+        "imagemSrc": "pergunta-pantanal.png",
+        "imagemRes": "res-pantanal.png",
+        "pergunta": "A silhueta na imagem representa qual ave do Bioma Pantanal?",
+        "dificuldade": 0,
+        "resposta": "Jaburu",
+        "falsas": [
+            "Canário",
+            "Articuno",
+            "Zapdos",
+            "Farfetch"
+        ],
+        "conjunto": "biomas"
+    },
+    {
+        "id": 68,
+        "imagemSrc": "pergunta-pampa.png",
+        "imagemRes": "res-pampa.png",
+        "pergunta": "A silhueta na imagem representa qual mamífero do Bioma Pampa?",
+        "dificuldade": 0,
+        "resposta": "Javali",
+        "falsas": [
+            "Pumba",
+            "Emboar",
+            "Porquinho da índia",
+            "Slowpoke"
+        ],
+        "conjunto": "biomas"
+    },
+    {
+        "id": 69,
+        "imagemSrc": "pergunta-cerrado.png",
+        "imagemRes": "res-cerrado.png",
+        "pergunta": "A silhueta na imagem representa que animal do Bioma Cerrado?",
+        "dificuldade": 0,
+        "resposta": "Tamanduá-Bandeira",
+        "falsas": [
+            "Tatu-bola",
+            "Drowsie",
+            "Heatmor",
+            "Urubu-rei"
+        ],
+        "conjunto": "biomas"
+    },
+    {
+        "id": 70,
+        "imagemSrc": "pergunta-amazonia.png",
+        "imagemRes": "res-amazonia.png",
+        "pergunta": "A silhueta na imagem representa que animal do Bioma Amazônia?",
+        "dificuldade": 0,
+        "resposta": "Bicho-preguiça",
+        "falsas": [
+            "Skaloth",
+            "Gambá",
+            "Tamanduá",
+            "Orangotango"
+        ],
+        "conjunto": "biomas"
+    },
+    {
+        "id": 71,
+        "pergunta": "Que percentual do território brasileiro é ocupado pelo Bioma Amazônia?",
+        "dificuldade": 1,
+        "resposta": "49%",
+        "falsas": [
+            "25%",
+            "60%",
+            "33%",
+            "65%"
+        ],
+        "conjunto": "biomas"
+    },
+    {
+        "id": 72,
+        "pergunta": "Que Bioma brasileiro é reconhecido como a Savana mais rica do mundo em biodiversidade?",
+        "dificuldade": 1,
+        "resposta": "Cerrado",
+        "falsas": [
+            "Pampas",
+            "Caatinga",
+            "Mata Atlântica",
+            "Pantanal"
+        ],
+        "conjunto": "biomas"
+    },
+    {
+        "id": 73,
+        "pergunta": "Qual dos Biomas brasileiros é o mais preservado?",
+        "dificuldade": 1,
+        "resposta": "Pantanal",
+        "falsas": [
+            "Amazônia",
+            "Cerrado",
+            "Caatinga",
+            "Pampas"
+        ],
+        "conjunto": "biomas"
+    },
+    {
+        "id": 74,
+        "pergunta": "Qual dos animais abaixo é típico do Bioma Amazônia?",
+        "dificuldade": 1,
+        "resposta": "Ararajuba",
+        "falsas": [
+            "Baleia-franca-do-sul",
+            "Lobo-guará",
+            "Mico-leão-dourado",
+            "Muriqui-do-norte"
+        ],
+        "conjunto": "biomas"
+    },
+    {
+        "id": 75,
+        "pergunta": "Qual o clima predominante do Bioma Amazônia?",
+        "dificuldade": 1,
+        "resposta": "Equatorial",
+        "falsas": [
+            "Tropical",
+            "Climão",
+            "Temperado",
+            "Chuvarada"
+        ],
+        "conjunto": "biomas"
+    },
+    {
+        "id": 76,
+        "pergunta": "A Floresta Amazônica é um Bioma que abrange que estados?",
+        "dificuldade": 1,
+        "resposta": "AC, AP, AM, PA, RO, RR e ainda uma pequena área do MA, TO e MT",
+        "falsas": [
+            "AC, AP, AM, PB e MG",
+            "AC, AP, RO, RR e ainda uma pequena área do MA, TO e MT",
+            "RO, RR e ainda uma pequena área do MA, TO e MT",
+            "AM, PA, RO, RR e ainda uma pequena área do MA, TO e MT"
+        ],
+        "conjunto": "biomas"
+    },
+    {
+        "id": 77,
+        "pergunta": "Quais os Biomas existentes no território brasileiro?",
+        "dificuldade": 1,
+        "resposta": "Amazônia, Caatinga, Cerrado, Mata Atlântica, Pampa e Pantanal",
+        "falsas": [
+            "Amazônia, Mata Atlântica e Pantanal",
+            "Floresta, Semi-árido, Pantanoso, Desmatado e Pasto",
+            "Amazônico, Cangaceiro, Mata Atlântica, Pampa e Pantanal",
+            "Floresta Tropical, Cerrado, Caatinga, Pantanal, Pinherais e Campos Gerais"
+        ],
+        "conjunto": "biomas"
+    },
+    {
+        "id": 78,
+        "imagemSrc": "pergunta-caatinga.png",
+        "imagemRes": "res-caatinga.png",
+        "pergunta": "A silhueta na imagem representa que animal do Bioma Caatinga?",
+        "dificuldade": 1,
+        "resposta": "Carcará",
+        "falsas": [
+            "Hawlucha",
+            "Garça",
+            "Flamingo",
+            "Gyrados"
+        ],
+        "conjunto": "biomas"
+    },
+    {
+        "id": 79,
+        "imagemSrc": "pergunta-mata.png",
+        "imagemRes": "res-mata.png",
+        "pergunta": "A silhueta na imagem representa qual mamífero do Bioma Mata Atlântica?",
+        "dificuldade": 1,
+        "resposta": "Macaco-prego galego",
+        "falsas": [
+            "Orangotango",
+            "Chimchar",
+            "Slaking",
+            "Cachorro-do-mato"
+        ],
+        "conjunto": "biomas"
+    },
+    {
+        "id": 80,
+        "pergunta": "O Bioma Cerrado é típico de que parte do Brasil?",
+        "dificuldade": 1,
+        "resposta": "Planalto Central Brasileiro",
+        "falsas": [
+            "Vale dos Vinhedos",
+            "Serra Gaúcha",
+            "Vale do Jequitinhonha",
+            "Litoral"
+        ],
+        "conjunto": "biomas"
+    },
+    {
+        "id": 81,
+        "pergunta": "Quantas espécies vegetais catalogadas o Bioma Amazônia tem?",
+        "dificuldade": 2,
+        "resposta": "1,5 milhão e meio",
+        "falsas": [
+            "ícil",
+            "10 milhões",
+            "200 mil",
+            "100 mil",
+            "10 mil"
+        ],
+        "conjunto": "biomas"
+    },
+    {
+        "id": 82,
+        "pergunta": "Por quais principais biomas passam as águas do Rio São Francisco?",
+        "dificuldade": 2,
+        "resposta": "Cerrado, Mata Atlântica e Caatinga;",
+        "falsas": [
+            "Pantanal, Pampa",
+            "Caatinga, Amazônia",
+            "Pampa, Caatinga.",
+            "Mata Atlântica, Pampa."
+        ],
+        "conjunto": "biomas"
+    },
+    {
+        "id": 83,
+        "pergunta": "Quais os principais usos da vegetação do Bioma Pampa para atividades humanas?",
+        "dificuldade": 2,
+        "resposta": "Pastagem natural e atividades agrícolas, principalmente o cultivo do arroz",
+        "falsas": [
+            "Criação de galináceos e atividades agrícolas, principalmente o cultivo do cacau",
+            "Campos de futebol, paisagens bucólicas e cultivo de soja",
+            "Fotografias e filmagens aéreas, campos de futebol e cultivo de cana-de-açúcar",
+            "Pastagem natural e cultivo de cana-de-açúcar"
+        ],
+        "conjunto": "biomas"
+    },
+    {
+        "id": 84,
+        "pergunta": "Qual a origem e o significado do nome Caatinga?",
+        "dificuldade": 2,
+        "resposta": "Tupi-guarani e mata branca",
+        "falsas": [
+            "Árabe e deserto arenoso",
+            "Latim e terra seca",
+            "Caigangue e mata escassa",
+            "Pataxó e mato sem cachorro"
+        ],
+        "conjunto": "biomas"
+    },
+    {
+        "id": 85,
+        "pergunta": "Além de estar presente em 2% do território brasileiro, o Bioma Pampa se estende ainda pelos territórios de mais dois países. Quais são?",
+        "dificuldade": 2,
+        "resposta": "Uruguai e Argentina",
+        "falsas": [
+            "Bolívia e Paraguai",
+            "Argentina e Paraguai",
+            "Bolívia e Peru",
+            "Colômbia e Venezuela"
+        ],
+        "conjunto": "biomas"
+    },
+    {
+        "id": 86,
+        "pergunta": "Qual das alternativas abaixo apresenta somente animais encontrados no Bioma Pantanal?",
+        "dificuldade": 2,
+        "resposta": "Tuiuiú, capivara, dourado e jacaré-de-papo-amarelo",
+        "falsas": [
+            "Pinguim, urso pardo, ser humano e crocodilo",
+            "Veado-catingueiro, preá, gambá e sapo-cururu",
+            "Dragonne, crocodilo atroz, fúria e grifo",
+            "Anta, bugio-preto, jaguatirica e lobo-guará"
+        ],
+        "conjunto": "biomas"
+    }
+]
