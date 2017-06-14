@@ -275,9 +275,8 @@
         "id": 81,
         "pergunta": "Quantas espécies vegetais catalogadas o Bioma Amazônia tem?",
         "dificuldade": 2,
-        "resposta": "1,5 milhão e meio",
+        "resposta": "1 milhão e meio",
         "falsas": [
-            "ícil",
             "10 milhões",
             "200 mil",
             "100 mil",
@@ -289,12 +288,12 @@
         "id": 82,
         "pergunta": "Por quais principais biomas passam as águas do Rio São Francisco?",
         "dificuldade": 2,
-        "resposta": "Cerrado, Mata Atlântica e Caatinga;",
+        "resposta": "Cerrado, Mata Atlântica e Caatinga",
         "falsas": [
             "Pantanal, Pampa",
             "Caatinga, Amazônia",
-            "Pampa, Caatinga.",
-            "Mata Atlântica, Pampa."
+            "Pampa, Caatinga",
+            "Mata Atlântica, Pampa"
         ],
         "conjunto": "biomas"
     },

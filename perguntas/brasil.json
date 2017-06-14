@@ -265,7 +265,6 @@
         "dificuldade": 2,
         "resposta": "São Paulo",
         "falsas": [
-            "ícil",
             "Roraima",
             "Manaus",
             "Rondônia",
@@ -327,7 +326,7 @@
     },
     {
         "id": 26,
-        "pergunta": "Que estado brasileiro tem o maior rebanho de búfalos",
+        "pergunta": "Que estado brasileiro tem o maior rebanho de búfalos?",
         "dificuldade": 2,
         "resposta": "Pará",
         "falsas": [
