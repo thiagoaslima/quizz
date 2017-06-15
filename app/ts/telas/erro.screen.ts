@@ -5,20 +5,23 @@ export const erroScreen: ITela = {
     <div class="geral splash2">
         <div class="pure-g">
             <div class="pure-u-1">
-                <h3>Errou!</h3>
-                <h2>A resposta certa é:</h2>
-                <h4>{{ resposta }}</h4>
-                <button class="resposta recomecar">recomeçar</button>
+                <h1>Ops! Você acertou apenas<br>{{ acertos }} de {{ total }} perguntas...</h1>
+                <h2>Quer receber novidades do IBGE? Digite seu email.</h2>
+                <input class="seunome" type="text" placeholder="seu email">
+                <br>
+                <button class="resposta mailing">tentar de novo</button>
             </div>
         </div>
     </div>
     `,
 
-    render(questao: IQuestao, container: HTMLElement = document.body) {
-        container.innerHTML = this.getHTML(questao);
+    render(acertos: number, total: number, container: HTMLElement = document.body) {
+        container.innerHTML = this.getHTML(acertos, total);
     },
 
-    getHTML(questao: IQuestao): string {
-        return this.template.replace('{{ resposta }}', questao.resposta);
+    getHTML(acertos: number, total: number): string {
+        return this.template
+            .replace('{{ acertos }}', acertos)
+            .replace('{{ total }}', total)
     }
 }

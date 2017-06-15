@@ -2,14 +2,13 @@
     "compilerOptions": {
         "allowJs": false,
         "baseUrl": ".",
-        "module": "system",
-        "moduleResolution": "node",
+        "module": "es2015",
         "noImplicitAny": true,
-        "outDir": "app/js",
+        "outDir": "app/es6",
         "sourceMap": true,
         "strictNullChecks": false,
         "suppressImplicitAnyIndexErrors": true,
-        "target": "es5",
+        "target": "es6",
         "watch": true
     },
     "include": [

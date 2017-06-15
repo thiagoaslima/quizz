@@ -5,17 +5,17 @@ export const splashScreen: ITela = {
             <div class="pure-g">
                 <div class="pure-u-1">
                     <img src="img/ibgego.png">
-                    <h1>Acerte as perguntas do quiz<br>e ganhe um atlas do IBGE!</h1>
+                    <h1>Acerte {{ numero }} perguntas do quiz<br>e ganhe um brinde do IBGE!</h1>
                     <button class="resposta">começar</button>
                 </div>
             </div>
         </div>`,
 
-    render(container: HTMLElement = document.body) {
-        container.innerHTML = this.template;
+    render(threshold: number, total: number, container: HTMLElement = document.body) {
+        container.innerHTML = this.getHTML(threshold, total);
     },
 
-    getHTML(): string {
-        return this.template;
+    getHTML(threshold: number, total: number): string {
+        return this.template.replace('{{ numero }}', threshold < total ? threshold : 'todas as');
     }
 }

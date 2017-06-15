@@ -6,7 +6,10 @@ export const tempoScreen: ITela = {
         <div class="pure-g">
             <div class="pure-u-1">
                 <h3>Seu tempo acabou!</h3>
-                <button class="resposta recomecar">recomeçar</button>
+                <h2>Quer receber novidades do IBGE? Digite seu email.</h2>
+                <input class="seunome" type="email" placeholder="seu email">
+                <br>
+                <button class="resposta mailing">tentar de novo</button>
             </div>
         </div>
     </div>

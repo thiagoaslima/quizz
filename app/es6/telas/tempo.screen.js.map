@@ -1,0 +1,1 @@
+{"version":3,"file":"tempo.screen.js","sourceRoot":"","sources":["../../ts/telas/tempo.screen.ts"],"names":[],"mappings":"AAEA,OAAO,MAAM,WAAW,GAAU;IAC9B,QAAQ,EAAE;;;;;;;;;;;;KAYT;IAED,MAAM,CAAC,SAAS,GAAgB,QAAQ,CAAC,IAAI;QACzC,SAAS,CAAC,SAAS,GAAG,IAAI,CAAC,OAAO,EAAE,CAAC;IACzC,CAAC;IAED,OAAO;QACH,MAAM,CAAC,IAAI,CAAC,QAAQ,CAAC;IACzB,CAAC;CACJ,CAAA"}

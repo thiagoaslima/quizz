@@ -14,6 +14,7 @@
 html, body {
     width: 100%;
     height: 100%;
+    overflow-y: hidden;
 }
 
 .geral {
@@ -265,6 +266,11 @@ h4 {
 }
 
 .resposta.errada {
+    background-color:orangered
+}
+
+/*
+.resposta.errada {
     animation-name: errada;
     animation-duration: 4s;
 }
@@ -288,3 +294,4 @@ h4 {
     75%   { background-color:orangered } 
     100%   { background-color:orangered } 
 }
+*/

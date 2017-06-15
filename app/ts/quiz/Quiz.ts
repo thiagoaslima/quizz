@@ -8,23 +8,11 @@ import { BancoQuestoes } from './BancoQuestoes';
 import { IQuestao, dificuldade } from '../interfaces/index';
 
 const jQuery: any = window['jQuery']
-
+ 
 export class Quiz {
     private _questoes = [
     {
         dificuldade: dificuldade.facil,
-        conjunto: 'biomas'
-    }, 
-    {
-        dificuldade: dificuldade.medio,
-        conjunto: 'biomas'
-    }, 
-    {
-        dificuldade: dificuldade.dificil,
-        conjunto: 'biomas'
-    },
-    {
-        dificuldade: dificuldade.facil,
         conjunto: 'brasil'
     }, 
     {
@@ -47,8 +35,22 @@ export class Quiz {
         dificuldade: dificuldade.dificil,
         conjunto: 'paises'
     }, 
-    
+    {
+        dificuldade: dificuldade.facil,
+        conjunto: 'biomas'
+    }, 
+    {
+        dificuldade: dificuldade.medio,
+        conjunto: 'biomas'
+    }, 
+    {
+        dificuldade: dificuldade.dificil,
+        conjunto: 'biomas'
+    }
     ]
+
+    private score = 0;
+    private threshold = 9;
 
     public paginaAtual: number | string = 0;
     public timer = 0;
@@ -62,30 +64,73 @@ export class Quiz {
     run() {
         const self = this; 
 
+        if (this._questoes.length < this.threshold) {
+            this.threshold = this._questoes.length;
+        }
+
+        window['fails'] = [];
+
         window.addEventListener('hashchange', (evt) => {
             this._showPage(getHash());
         });
 
          jQuery('body').on('click', '.enviar', function(evt:MouseEvent) {
-            const name = jQuery('.seunome').val();
+            const email = jQuery('.seunome').val();
             
+            jQuery(this).html('<img src="img/spin.gif" />')
 
-            goToHash('0');
+            if (jQuery('input[type=checkbox]').is( ":checked" )) {
+                 jQuery.post('http://www.ibge.gov.br/temp/quizz_mailing.php', { email: email })
+            }
+
+            jQuery.post('http://www.ibge.gov.br/temp/quizz.php', { email: email })
+                .done(function() {
+                    goToHash('0');
+                })
+                .fail(function() {
+                    window['fails'].push(email);
+                    alert('Não foi possível registrar seu email.')
+                });
+            
+        })
+
+        jQuery('body').on('click', '.mailing', function(evt:MouseEvent) {
+            const email = jQuery('.seunome').val();
+
+            jQuery(this).html('<img src="img/spin.gif" />')
+            
+            if (!email.trim()) { 
+                return goToHash('0'); 
+            } else {
+                jQuery.post('http://www.ibge.gov.br/temp/quizz_mailing.php', { email: email })
+                    .always(function() {
+                        goToHash('0');
+                    })
+            }
+
+            
+            
         })
 
         jQuery('body').on('click', '.resposta', function(evt:MouseEvent) {
             if (!self.questaoAtual) { return; }
 
             self.timer += 2;
-            
-            if (jQuery(this).text() === self.questaoAtual.resposta) {
-                let next = parseInt(self.paginaAtual.toString(), 10) + 1
-                jQuery(this).addClass('certa')
-                setTimeout(function (){ goToHash(next.toString()) }, 2000);
+            let next = parseInt(self.paginaAtual.toString(), 10) + 1;
+
+            jQuery('.questoes .resposta').each(function() {
+                if (jQuery(this).text() === self.questaoAtual.resposta) {
+                    jQuery(this).addClass('certa');
+                }
+            })
+
+            if (jQuery(this).text() === self.questaoAtual.resposta) {  
+                self.score += 1;
             } else {
-                jQuery(this).addClass('errada')
-                setTimeout(function (){ goToHash('erro') }, 2000);
+                jQuery(this).addClass('errada');
             }
+
+            setTimeout(function (){ goToHash(next.toString()) }, 2000);
         })
 
         jQuery('body').on('click', '.recomecar', function(evt:MouseEvent) {
@@ -104,9 +149,9 @@ export class Quiz {
 
         if (isNaN(_state)) {
             this.paginaAtual = state;
-        } else if (_state > this._questoes.length) {
-            this.paginaAtual = 'vitoria',
-            state = 'vitoria'
+        } else if (_state > this._questoes.length) {           
+            this.paginaAtual = this.score >= this.threshold ? 'vitoria' : 'erro',
+            state = this.paginaAtual
         } else {
             this.paginaAtual = _state;
         }
@@ -129,7 +174,7 @@ export class Quiz {
             case 'erro':
                 this.questaoAtual = null;
                 this.stopClock();
-                this._lose('erro', questao);
+                this._lose('erro');
                 break;
 
             case 'tempo':
@@ -145,6 +190,7 @@ export class Quiz {
     
     idle(): void {
         const self = this;
+        self.score = 0;
         splashScreen.render(document.body);
         jQuery('button').on('click', () => goToHash('1'))
     }
@@ -203,12 +249,12 @@ export class Quiz {
     }
 
     private _success() {
-        vitoriaScreen.render();
+        vitoriaScreen.render(this.score, this._questoes.length);
     }
 
-    private _lose(situacao: string, questao?: IQuestao) {
+    private _lose(situacao: string) {
         if (situacao === 'erro') {
-            erroScreen.render(questao)
+            erroScreen.render(this.score, this._questoes.length)
         } else {
             tempoScreen.render()
         }
